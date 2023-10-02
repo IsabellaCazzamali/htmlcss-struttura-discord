@@ -20,6 +20,17 @@
     border: 1px dashed black;
 }
 
+.debug .presentation{
+    height: 400px;
+    background-color: rgba(23, 23, 196, 0.818);
+}
+
+.debug .download{
+    height: 300px;
+    width: 700px;
+    background-color: rgb(52, 171, 211);
+    border: 1px dashed black;
+}
 
 /* Utility */
 *{
@@ -53,4 +64,10 @@ header{
 
 .login{
     text-align: right;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
