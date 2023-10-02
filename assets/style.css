@@ -1,0 +1,56 @@
+/* Debug */
+
+.debug header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(80, 9, 146);
+}
+
+.debug .item{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(159, 84, 229);
+    border: 1px dashed black;
+}
+
+.debug .items{
+    height: 30px;
+    width: 600px;
+    background-color: rgb(159, 84, 229);
+    border: 1px dashed black;
+}
+
+
+/* Utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links>div{
+    padding: 5px;
+}
+
+.item{
+    padding: 5px;
+}
+
+.login{
+    text-align: right;
+}
