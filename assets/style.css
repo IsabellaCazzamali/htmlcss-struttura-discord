@@ -101,6 +101,25 @@
     border: 1px dashed black;
 }
 
+.debug .bottom_menu{
+    height: 500px;
+    background-color: rgb(30, 30, 131);
+}
+
+.debug .socials{
+    height: 90%;
+    width: 300px;
+    background-color: rgb(232, 234, 145);
+    border: 1px dashed black;
+}
+
+.debug .list{
+    height: 90%;
+    width: 150px;
+    background-color: rgb(220, 85, 220);
+    border: 1px dashed black;
+}
+
 /* Utility */
 *{
     margin: 0;
@@ -160,6 +179,12 @@ header{
 }
 
 .video_screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_menu{
     display: flex;
     justify-content: center;
     align-items: center;
