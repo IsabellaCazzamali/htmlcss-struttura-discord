@@ -2,20 +2,20 @@
 
 .debug header{
     height: 60px;
-    width: 100%;
+/*     width: 100%; */
     background-color: rgb(80, 9, 146);
 }
 
 .debug .item{
     height: 30px;
-    width: 200px;
+/*     width: 200px; */
     background-color: rgb(159, 84, 229);
     border: 1px dashed black;
 }
 
 .debug .items{
     height: 30px;
-    width: 600px;
+/*     width: 600px; */
     background-color: rgb(159, 84, 229);
     border: 1px dashed black;
 }
@@ -133,14 +133,14 @@
 
 .debug .foot_logo{
     height: 30px;
-    width: 100px;
+/*     width: 100px; */
     background-color: rgb(110, 200, 252);
     border: 1px dashed black;
 }
 
 .debug .foot_login{
     height: 30px;
-    width: 100px;
+/*     width: 100px; */
     background-color: rgb(110, 200, 252);
     border: 1px dashed black;
 }
@@ -161,6 +161,7 @@ header{
 .container_links{
     display: flex;
     align-items: center;
+    width: 70%;
 }
 
 .links{
@@ -174,34 +175,16 @@ header{
 
 .item{
     padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    text-align: left;
 }
 
 .login{
     text-align: right;
-}
-
-.blue{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.white{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grey{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bottom_menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container{
@@ -212,21 +195,12 @@ header{
     
 }
 
-
-
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container_footer{
-    width: 900px;
+/*     width: 900px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid rgba(74,87,129,255);
+/*     border-top: 1px solid rgba(74,87,129,255); */
 }
 
 .foot_logo{
@@ -240,6 +214,12 @@ footer{
 
 
 /* Utility */
+
+.c_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .col_7{
     padding: 1rem;
@@ -261,6 +241,15 @@ footer{
     width: calc((100% / 12) * 2);
 }
 
+.col_8{
+    padding: 1rem;
+    width: calc((100% / 12) * 8);
+}
+
 .download, .screens{
     width: 100%;
+}
+
+.border_t{
+    border-top: 1px solid rgba(74,87,129,255);
 }
